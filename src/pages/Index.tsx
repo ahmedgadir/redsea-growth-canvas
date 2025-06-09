@@ -8,7 +8,7 @@ const Index = () => {
       {/* Main Content - Single Screen */}
       <div className="flex-1 flex items-center justify-center">
         <div className="container mx-auto px-6">
-          <div className="max-w-3xl mx-auto text-center">
+          <div className="max-w-4xl mx-auto text-center">
             {/* Enhanced Logo with decorative elements */}
             <div className="mb-12 animate-fade-in">
               {/* Logo container with border and background */}
@@ -41,19 +41,19 @@ const Index = () => {
               <p className="text-slate-500 text-sm tracking-wider uppercase font-medium">Investment Partners</p>
             </div>
 
-            {/* Simple Tagline */}
-            <h2 className="text-3xl md:text-4xl font-light text-slate-800 mb-8 animate-fade-in">
-              Backing exceptional founders<br/>
-              <span className="text-red-600 font-medium">across East Africa</span>
+            {/* Balanced Tagline */}
+            <h2 className="text-3xl md:text-4xl font-light text-slate-800 mb-8 animate-fade-in max-w-3xl mx-auto">
+              Backing exceptional founders building the future 
+              <span className="text-red-600 font-medium"> across East Africa's most dynamic markets</span>
             </h2>
 
-            {/* Simple Description */}
-            <p className="text-xl text-slate-600 mb-12 leading-relaxed max-w-2xl mx-auto animate-fade-in">
-              We partner with visionary entrepreneurs building the future 
-              of business across East Africa's most dynamic markets.
+            {/* Balanced Description */}
+            <p className="text-xl text-slate-600 mb-12 leading-relaxed max-w-3xl mx-auto animate-fade-in">
+              We partner with visionary entrepreneurs who are transforming industries 
+              and creating lasting impact across the region's emerging economies.
             </p>
 
-            {/* Simple CTA */}
+            {/* CTA */}
             <div className="animate-fade-in">
               <Button 
                 size="lg" 
