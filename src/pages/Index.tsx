@@ -58,9 +58,12 @@ const Index = () => {
               <Button 
                 size="lg" 
                 className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 text-lg font-medium rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
+                asChild
               >
-                Let's Connect
-                <ArrowRight className="ml-3 h-5 w-5" />
+                <a href="mailto:team@redseagrowth.com">
+                  Let's Connect
+                  <ArrowRight className="ml-3 h-5 w-5" />
+                </a>
               </Button>
             </div>
           </div>
