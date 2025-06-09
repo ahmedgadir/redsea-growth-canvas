@@ -9,16 +9,33 @@ const Index = () => {
       <div className="flex-1 flex items-center justify-center">
         <div className="container mx-auto px-6">
           <div className="max-w-3xl mx-auto text-center">
-            {/* Enhanced Logo */}
+            {/* Enhanced Logo with decorative elements */}
             <div className="mb-12 animate-fade-in">
-              <h1 className="text-6xl md:text-7xl font-bold mb-6">
-                <span className="text-slate-900">Redsea</span>
-                <span className="text-red-600 ml-3">Growth</span>
-              </h1>
+              {/* Logo container with border and background */}
+              <div className="relative inline-block px-8 py-6 mb-6">
+                {/* Decorative border */}
+                <div className="absolute inset-0 border-2 border-red-200 rounded-lg"></div>
+                <div className="absolute inset-1 border border-red-300 rounded-md"></div>
+                
+                {/* Corner decorations */}
+                <div className="absolute -top-2 -left-2 w-4 h-4 bg-red-600 rounded-full"></div>
+                <div className="absolute -top-2 -right-2 w-4 h-4 bg-red-600 rounded-full"></div>
+                <div className="absolute -bottom-2 -left-2 w-4 h-4 bg-red-600 rounded-full"></div>
+                <div className="absolute -bottom-2 -right-2 w-4 h-4 bg-red-600 rounded-full"></div>
+                
+                <h1 className="text-5xl md:text-6xl font-bold relative z-10">
+                  <span className="text-slate-900">Redsea</span>
+                  <span className="text-red-600 ml-3">Growth</span>
+                </h1>
+              </div>
               
-              {/* Simple underline inspired by reference image */}
+              {/* Decorative underline with dots */}
               <div className="flex items-center justify-center mb-4">
-                <div className="h-0.5 bg-red-600 w-24"></div>
+                <div className="h-px bg-red-300 w-12"></div>
+                <div className="h-1.5 w-1.5 bg-red-600 rounded-full mx-3"></div>
+                <div className="h-0.5 bg-red-600 w-16"></div>
+                <div className="h-1.5 w-1.5 bg-red-600 rounded-full mx-3"></div>
+                <div className="h-px bg-red-300 w-12"></div>
               </div>
               
               <p className="text-slate-500 text-sm tracking-wider uppercase font-medium">Investment Partners</p>
