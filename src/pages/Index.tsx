@@ -9,14 +9,21 @@ const Index = () => {
       <div className="flex-1 flex items-center justify-center">
         <div className="container mx-auto px-6">
           <div className="max-w-3xl mx-auto text-center">
-            {/* Simple Logo */}
+            {/* Enhanced Logo */}
             <div className="mb-12 animate-fade-in">
-              <h1 className="text-6xl md:text-7xl font-bold mb-4">
+              <h1 className="text-6xl md:text-7xl font-bold mb-6">
                 <span className="text-slate-900">Redsea</span>
                 <span className="text-red-600 ml-3">Growth</span>
               </h1>
-              <div className="w-16 h-1 bg-red-600 mx-auto rounded-full mb-4"></div>
-              <p className="text-slate-500 text-sm tracking-wider uppercase">Investment Partners</p>
+              
+              {/* Decorative lines underneath */}
+              <div className="flex items-center justify-center mb-4">
+                <div className="h-px bg-slate-300 w-16"></div>
+                <div className="h-2 w-2 bg-red-600 rounded-full mx-4"></div>
+                <div className="h-px bg-slate-300 w-16"></div>
+              </div>
+              
+              <p className="text-slate-500 text-sm tracking-wider uppercase font-medium">Investment Partners</p>
             </div>
 
             {/* Simple Tagline */}
