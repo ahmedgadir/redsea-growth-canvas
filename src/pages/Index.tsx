@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 const Index = () => {
   return (
-    <div className="h-screen bg-gradient-to-br from-slate-50 via-white to-slate-100 flex flex-col">
+    <div className="h-screen bg-gradient-to-br from-slate-50 via-red-50 to-slate-100 flex flex-col">
       {/* Main Content - Single Screen */}
       <div className="flex-1 flex items-center justify-center">
         <div className="container mx-auto px-6">
@@ -16,11 +16,9 @@ const Index = () => {
                 <span className="text-red-600 ml-3">Growth</span>
               </h1>
               
-              {/* Decorative lines underneath */}
+              {/* Simple underline inspired by reference image */}
               <div className="flex items-center justify-center mb-4">
-                <div className="h-px bg-slate-300 w-16"></div>
-                <div className="h-2 w-2 bg-red-600 rounded-full mx-4"></div>
-                <div className="h-px bg-slate-300 w-16"></div>
+                <div className="h-0.5 bg-red-600 w-24"></div>
               </div>
               
               <p className="text-slate-500 text-sm tracking-wider uppercase font-medium">Investment Partners</p>
@@ -44,7 +42,7 @@ const Index = () => {
                 size="lg" 
                 className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 text-lg font-medium rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
               >
-                Partner With Us
+                Let's Connect
                 <ArrowRight className="ml-3 h-5 w-5" />
               </Button>
             </div>
