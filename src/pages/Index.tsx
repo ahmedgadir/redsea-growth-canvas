@@ -25,7 +25,9 @@ const Index = () => {
                 
                 <h1 className="text-5xl md:text-6xl font-bold relative z-10">
                   <span className="text-slate-900">Redsea</span>
-                  <span className="text-red-600 ml-3">Growth</span>
+                  <span className="ml-3 bg-gradient-to-r from-red-600 via-red-500 to-orange-500 bg-clip-text text-transparent font-extrabold tracking-tight">
+                    Growth
+                  </span>
                 </h1>
               </div>
               
