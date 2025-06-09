@@ -1,5 +1,6 @@
 
-import { ArrowRight, TrendingUp, Globe, Factory } from "lucide-react";
+
+import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Index = () => {
@@ -48,39 +49,6 @@ const Index = () => {
               Backing exceptional founders building the future 
               <span className="text-red-600 font-medium"> across East Africa's most dynamic markets</span>
             </h2>
-
-            {/* Investment Focus Section */}
-            <div className="mb-12 animate-fade-in">
-              <div className="bg-white/60 backdrop-blur-sm border border-red-100 rounded-2xl p-8 max-w-2xl mx-auto">
-                <h3 className="text-lg font-semibold text-slate-800 mb-6">We partner with businesses that are:</h3>
-                
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                  <div className="flex flex-col items-center text-center">
-                    <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mb-3">
-                      <TrendingUp className="h-6 w-6 text-red-600" />
-                    </div>
-                    <p className="font-medium text-slate-800">Cash Flow</p>
-                    <p className="font-medium text-slate-800">Positive</p>
-                  </div>
-                  
-                  <div className="flex flex-col items-center text-center">
-                    <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mb-3">
-                      <Globe className="h-6 w-6 text-red-600" />
-                    </div>
-                    <p className="font-medium text-slate-800">Export</p>
-                    <p className="font-medium text-slate-800">Focused</p>
-                  </div>
-                  
-                  <div className="flex flex-col items-center text-center">
-                    <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mb-3">
-                      <Factory className="h-6 w-6 text-red-600" />
-                    </div>
-                    <p className="font-medium text-slate-800">Agriculture &</p>
-                    <p className="font-medium text-slate-800">Manufacturing</p>
-                  </div>
-                </div>
-              </div>
-            </div>
 
             {/* Balanced Description */}
             <p className="text-xl text-slate-600 mb-12 leading-relaxed max-w-3xl mx-auto animate-fade-in">
@@ -131,3 +99,4 @@ const Index = () => {
 };
 
 export default Index;
+
